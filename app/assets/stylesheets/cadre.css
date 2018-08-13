@@ -1,0 +1,23 @@
+.cadre {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 15px;
+  background-color: rgb(253, 241, 203);
+  border-radius: 5px;
+}
+
+.bas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paws {
+  display: flex;
+}
+
+.moyenne {
+  display: flex;
+}
