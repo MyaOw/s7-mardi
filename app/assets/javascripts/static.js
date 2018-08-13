@@ -18,3 +18,5 @@ function openCat(evt, catName) {
   document.getElementById(catName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+document.getElementById("mistigri").click();
