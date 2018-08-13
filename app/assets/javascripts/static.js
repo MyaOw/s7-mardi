@@ -19,4 +19,4 @@ function openCat(evt, catName) {
   evt.currentTarget.className += " active";
 }
 
-document.getElementById("mistigri").click();
+document.getElementById("button-mistigri").click();
