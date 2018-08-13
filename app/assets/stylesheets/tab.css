@@ -38,3 +38,8 @@
   border: 1px solid rgb(88, 88, 88);
   border-top: none;
 }
+
+.tabcontent img {
+  float: right;
+  max-width: 150px;
+}

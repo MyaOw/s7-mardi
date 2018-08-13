@@ -19,4 +19,7 @@ function openCat(evt, catName) {
   evt.currentTarget.className += " active";
 }
 
-document.getElementById("button-mistigri").click();
+document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("button-mistigri").click();
+    console.log('caca3')
+})

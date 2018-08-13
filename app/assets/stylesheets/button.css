@@ -1,6 +1,6 @@
 .button {
   background-color: #FFDC64; /* Green */
-  border: none;
+  border: 2px solid #FFDC64;
   color: rgb(88, 88, 88);
   padding: 5px;
   text-align: center;
@@ -8,4 +8,13 @@
   font-size: 16px;
   float: right;
   margin-bottom: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  color: rgb(88, 88, 88);
+  border: 2px solid #FFDC64;
+  border-radius: 5px;
 }
